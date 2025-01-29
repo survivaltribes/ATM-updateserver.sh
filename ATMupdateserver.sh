@@ -1,6 +1,6 @@
 #!/bin/bash
 
-### This Script attempts to update ATM8.
+### This Script attempts to update ATM.
 
 # Check for the correct number of arguments
 if [ "$#" -ne 2 ]; then
@@ -95,3 +95,4 @@ done
 mv "$unzipped_folder"/* "$destination_folder"
 echo "Unzipped files moved to $destination_folder"
 
+echo "ATM updated"
